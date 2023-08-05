@@ -91,6 +91,16 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgba(24, 22, 22, 0.836);
+}
+
+::-webkit-scrollbar-thumb {
+  background:#7e7e7e;
+  border-radius: 15px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
