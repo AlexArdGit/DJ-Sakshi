@@ -17,7 +17,7 @@
 
   --bs-custom-gradient1: #100f30;
   --bs-custom-gradient2: #811733;
-  --bs-custom-gradient3: #ca5917;
+  --bs-custom-gradient3: #4b0b1c;
   
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -116,7 +116,13 @@
 
 .bg-custom {
   --bs-bg-opacity: 1;
-  background-image: linear-gradient(var(--bs-custom-gradient1), var(--bs-custom-gradient1), var(--bs-custom-gradient2),var(--bs-custom-gradient1));
+  background-image: linear-gradient(var(--bs-custom-gradient1), 
+                                    var(--bs-custom-gradient1),   
+                                    var(--bs-custom-gradient1), 
+                                    var(--bs-custom-gradient3), 
+                                    var(--bs-custom-gradient2), 
+                                    var(--bs-custom-gradient3), 
+                                    var(--bs-custom-gradient1));
 }
 
 body {
